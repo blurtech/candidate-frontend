@@ -25,7 +25,7 @@ class Poll extends Component {
           <div className="down-arrow">▼</div>
         </div>
         <div onClick={this.toggleDescription.bind(this)} className="poll-name">{this.props.name}<br />
-        {!this.state.descriptionHidden && <Description desc="Очень большое описание" />}</div>
+        {!this.state.descriptionHidden && <Description desc={this.props.desc} />}</div>
       </div>
     );
   }
