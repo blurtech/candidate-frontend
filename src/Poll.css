@@ -16,6 +16,7 @@
 
 .poll-name:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .score-counter {
