@@ -10,6 +10,7 @@
 .poll-name {
     margin-top: 1.1em;
     width: 80%;
+    font-size: 2em;
     color: #0053a7;
     vertical-align: top;
 }
@@ -22,6 +23,7 @@
 .score-counter {
     margin-right: 10px;
     text-align: center;
+    font-size: 2em;
 }
 
 .up-arrow, .down-arrow {
