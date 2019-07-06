@@ -1,6 +1,11 @@
 .Poll {
-    margin: 0 15px -5px;
+    margin: 0 5em -5px 5em;
     padding: 5px;
+    background-color: #f0f8ff;
+    box-shadow:0px 3px 5px 0px rgba(50, 50, 50, 0.40);
+    margin-bottom: 14px;
+    border-bottom: 3px solid #3b7fd9;
+    border-radius: 8px;
 }
 
 .Poll * {
