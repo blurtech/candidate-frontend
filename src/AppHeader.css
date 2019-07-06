@@ -1,13 +1,25 @@
 .AppHeader {
-    background-color: #0053a7;
-    height: 2em;
-    padding: 20px;
+    background-color: #3b7fd9;
+    height: 7em;
     margin-bottom: 15px;
-    text-align: left;
     box-shadow: 0px 0px 3px #222222;
 }
 
 .Logo {
+	padding: 0.2em 0 0 0.5em;
     color: white;
     font-size: 2em;
+    display: flex;
+    align-items: center;
 }
+
+.Ded{
+	margin-left: 1em;
+}
+
+.Enter a{
+	margin-left: 50em;
+	color: white;
+}
+
+
