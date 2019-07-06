@@ -1,0 +1,16 @@
+.Poll {
+    margin: 0 15px 15px;
+    padding: 5px;
+    background: #eeeeee;
+}
+.Poll * {
+    display: inline-block;
+}
+
+.poll-name {
+    color: #0053a7;
+}
+
+.score-counter {
+    padding: 5px;
+}
