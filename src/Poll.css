@@ -1,7 +1,6 @@
 .Poll {
     margin: 0 15px -5px;
     padding: 5px;
-    background: #dddddd;
 }
 
 .Poll * {
@@ -9,7 +8,10 @@
 }
 
 .poll-name {
+    margin-top: 1.1em;
+    width: 80%;
     color: #0053a7;
+    vertical-align: top;
 }
 
 .poll-name:hover {
@@ -19,7 +21,6 @@
 .score-counter {
     margin-right: 10px;
     text-align: center;
-    vertical-align: middle;
 }
 
 .up-arrow, .down-arrow {

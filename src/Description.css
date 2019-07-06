@@ -2,6 +2,8 @@
     background: #eeeeee;
     border: 1px solid #77aeff;
     border-radius: 5px;
-    display: block;
-    left: 20px;
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    position: relative;
 }
