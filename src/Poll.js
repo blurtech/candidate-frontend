@@ -7,10 +7,10 @@ class Poll extends Component {
     super(props);
     this.state = {
       descriptionHidden: true
-    }
+    };
   }
 
-  toggleDescription() {
+  toggleDescription = () => {
     this.setState({
       descriptionHidden: !this.state.descriptionHidden
     })
@@ -18,15 +18,15 @@ class Poll extends Component {
 
   render() {
     return (
-      <div className="Poll">
-        <div className="score-counter">
-          <div className="up-arrow">▲</div><br />
-          136<br />
-          <div className="down-arrow">▼</div>
+        <div className="Poll">
+          <div className="score-counter">
+            <div className="up-arrow">▲</div><br />
+            136<br />
+            <div className="down-arrow">▼</div>
+          </div>
+          <div onClick={this.toggleDescription} className="poll-name">{this.props.name}<br />
+            {!this.state.descriptionHidden && <Description desc={this.props.desc} />}</div>
         </div>
-        <div onClick={this.toggleDescription.bind(this)} className="poll-name">{this.props.name}<br />
-        {!this.state.descriptionHidden && <Description desc={this.props.desc} />}</div>
-      </div>
     );
   }
 }
